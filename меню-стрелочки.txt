@@ -1,0 +1,54 @@
+int ex = 0;
+int key = 1;
+setlocale(0, "");
+int ch;
+ch = _getch();
+system("cls");
+do
+{
+	printf("1");
+	if (key == 1)
+		printf("<--");
+
+	printf("\n2");
+	if (key == 2)
+		printf("<--");
+	printf("\n3");
+	if (key == 3)
+		printf("<--");
+	printf("\n4");
+	if (key == 4)
+		printf("<--");
+	ch = _getch();
+	system("cls");
+	switch (ch)
+	{
+	case '1':
+		key = 1;
+		ex = 1;
+		break;
+	case '2':
+		key = 2;
+		ex = 2;
+		break;
+	case '3':
+		key = 3;
+		ex = 3;
+		break;
+	case'4':
+		key = 4;
+		ex = 4;
+		break;
+	case 72:
+		if (key > 1)
+			key--;
+		break;
+	case 80:
+		if (key < 4)
+			key++;
+		break;
+	case 13:
+		ex = 23;
+		break;
+	}
+} while (ex != 23);
