@@ -1,0 +1,6 @@
+  Source.cpp
+c:\users\кирилл\desktop\прога\змейка\project2\source.cpp(360): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+c:\users\кирилл\desktop\прога\змейка\project2\source.cpp(370): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+c:\users\кирилл\desktop\прога\змейка\project2\source.cpp(371): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\кирилл\desktop\прога\змейка\project2\source.cpp(378): warning C4805: ==: небезопасное смешение типа "int" и типа "bool" в операции
+  Project2.vcxproj -> C:\Users\Кирилл\Desktop\прога\змейка\Debug\Project2.exe
