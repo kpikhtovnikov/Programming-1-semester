@@ -1,0 +1,10 @@
+  Source.cpp
+c:\users\кирилл\desktop\прога\калькулятор\калькулятор\source.cpp(152): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\кирилл\desktop\прога\калькулятор\калькулятор\source.cpp(137): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note:  см. объявление "strcat"
+c:\users\кирилл\desktop\прога\калькулятор\калькулятор\source.cpp(140): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note:  см. объявление "strcat"
+c:\users\кирилл\desktop\прога\калькулятор\калькулятор\source.cpp(151): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note:  см. объявление "strcat"
+c:\users\кирилл\desktop\прога\калькулятор\калькулятор\source.cpp(241): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+c:\users\кирилл\desktop\прога\калькулятор\калькулятор\source.cpp(306): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
